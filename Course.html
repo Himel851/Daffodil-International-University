@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Course || Daffodil International University</title>
+    <link rel="shortcut icon" href="images/tittle.png" >
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-------------- HEADER --------------------------->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Course.html">COURSE</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Our Courses</h1>
+    </section>
+
+    <!---------------- Our Courses----------------->
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores perferendis doloribus sed deleniti quasi repellendus vitae! Officia, id! Fugiat odit alias exercitationem illum! Repellat, mollitia!</p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores perferendis doloribus sed deleniti quasi repellendus vitae! Officia, id! Fugiat odit alias exercitationem illum! Repellat, mollitia!</p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores perferendis doloribus sed deleniti quasi repellendus vitae! Officia, id! Fugiat odit alias exercitationem illum! Repellat, mollitia!</p>
+        </div>
+      </div>
+
+    </section>
+    <!----------------- Facilities ------------------>
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.jfif" alt="">
+          <h3>World Class Library</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam animi reiciendis omnis non molestiae. Sint animi minus pariatur ratione.</p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/playground.jpg" alt="">
+          <h3>Play Ground</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam animi reiciendis omnis non molestiae. Sint animi minus pariatur ratione.</p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/foodCourt.jpg" alt="">
+          <h3>Tasty and Healthy Food</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam animi reiciendis omnis non molestiae. Sint animi minus pariatur ratione.</p>
+        </div>
+      </div>
+    </section>
+
+    <!------------- Footer -------------->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Get in Touch</h4>
+            <ul>
+              <li><a href="#">Campus Contact</a></li>
+              <li><a href="#">Meet With Us</a></li>
+              <li><a href="#">Privacy Statement</a></li>
+              <li><a href="#">Report Copyright Infringement</a></li>
+              <li><a href="#">Report on Security Issues</a></li>
+              <li><a href="#">Recom. For Traffic Mgt</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Branding</h4>
+            <ul>
+              <li><a href="#">DIU Branding</a></li>
+              <li><a href="#">Career Opportunities</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Photo Gallery</a></li>
+              <li><a href="#">DIU News</a></li>
+              <li><a href="#">DIU Press</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">skill.jobs</a></li>
+              <li><a href="#">Internship Portal</a></li>
+              <li><a href="#">Foundation Day</a></li>
+              <li><a href="#">Convocation</a></li>
+              <li><a href="#">Brochure</a></li>
+              <li><a href="#">Prospectus</a></li>
+
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+
+    <script>
+      var navLinks = document.getElementById("navlinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
